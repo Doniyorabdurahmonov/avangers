@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Project</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header>
+    <div class="nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg d-flex">
+                <div class="logo">
+                    <img src="img/UMovies%20(1).png" alt="logo"/>
+                </div>
+                <div class="container-fluid">
+                    <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 fs-5" href="#movies">MOVIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 fs-5" href="#shows">SHOWS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 fs-5" href="#actors">ACTORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 fs-5" href="#">NEWS</a>
+                            </li>
+
+                            <div class="right-side-links">
+                                <a class="nav-link btn1" href="#"> LOGIN </a>
+                                <a class="btn btn-danger" href="#"> SIGN UP </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="carousel" id="carousel">
+        <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-bs-ride="carousel"
+        >
+            <div class="carousel-indicators">
+                <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active active-img"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                ></button>
+                <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        class="active-img"
+                        aria-label="Slide 2"
+                ></button>
+                <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        class="active-img"
+                        aria-label="Slide 3"
+                ></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                            src="img/c3.png"
+                            class="d-block w-100 carousel-images"
+                            height="750px"
+                            alt="avengers"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-texts">
+                            <p class="carousel-text headers fs-1 fw-bold">31 SEPT 2019</p>
+                            <h5 class="carousel-text headers fs-1 fw-bold">
+                                AVENGERS - INFINITY WAR
+                            </h5>
+                            <p class="carousel-text fs-5">
+                                In 2016, Marvel shortened the title to Avengers: Infinity
+                                War. Filming began in January 2017 at Pinewood Atlanta
+                                Studios in Fayette County, Georgia, with a large cast
+                                consisting mostly of actors .
+                            </p>
+
+                            <div class="stars">
+                                <!-- <img src="img/star.svg" alt="star" />
+                                <img src="img/star.svg" alt="star" />
+                                <img src="img/star.svg" alt="star" />
+                                <img src="img/star.svg" alt="star" />
+                                <img src="img/star.svg" alt="star" />
+                                <p class="views">12K Reviews</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                            src="img/c2.jpg"
+                            class="d-block w-100 carousel-images"
+                            height="750px"
+                            alt="avengers"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-texts">
+                            <p class="carousel-text headers fs-1 fw-bold">31 SEPT 2019</p>
+                            <h5 class="carousel-text headers fs-1 fw-bold">
+                                AVENGERS - INFINITY WAR
+                            </h5>
+                            <p class="carousel-text fs-5">
+                                In 2016, Marvel shortened the title to Avengers: Infinity
+                                War. Filming began in January 2017 at Pinewood Atlanta
+                                Studios in Fayette County, Georgia, with a large cast
+                                consisting mostly of actors .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                            src="img/c6.jpg"
+                            class="d-block w-100 carousel-images"
+                            height="750px"
+                            alt="avengers"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-texts">
+                            <p class="carousel-text headers fs-1 fw-bolder">
+                                31 SEPT 2019
+                            </p>
+                            <h5 class="carousel-text headers fs-1 fw-bolder">
+                                AVENGERS - INFINITY WAR
+                            </h5>
+                            <p class="carousel-text fs-5">
+                                In 2016, Marvel shortened the title to Avengers: Infinity
+                                War. Filming began in January 2017 at Pinewood Atlanta
+                                Studios in Fayette County, Georgia, with a large cast
+                                consisting mostly of actors .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="first-part">
+        <div class="container">
+            <div class="row" id="movies">
+                <div class="col-md-6">
+                    <h1 class="main-top-header fs-1">Top Actions</h1>
+                    <h1 class="main-top-second-header fs-2">RECOMMENDED MOVIES</h1>
+                    <hr class=""/>
+                </div>
+                <div class="col">
+                    <div class="buttons">
+                        <button class="prev"> <</button>
+                        <button class="next"> ></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 cols">
+                    <img class="movie-images" src="img/img1.png" alt="image"/>
+                    <h1 class="img-header fs-2 mt-2">Pirates of the Caribbean</h1>
+                    <p class="img-text">
+                        Happy-go-lucky troublemaker Capt. Jack Sparrow works his way out
+                        of a blood debt with the ghostly Davy Jones, hoping to avoid
+                        eternal damnation.
+                    </p>
+                    <div class="likes d-flex">
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <h1 class="views fs-4 mx-4">15K Reviews</h1>
+                        <br>
+                    </div>
+                    <button class="btn btn-danger mt-2">Download</button>
+                </div>
+                <div class="col-md-4 cols">
+                    <img class="movie-images" src="img/img2.png" alt="image"/>
+                    <h1 class="img-header fs-1">Aquaman</h1>
+                    <p class="img-text">
+                        Aquaman is a 2018 American superhero film based on the DC <br/>
+                        character of the same ..... For the sequence,
+                    </p>
+                    <div class="likes d-flex">
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <h1 class="views fs-4 mx-4">2K Reviews</h1>
+                    </div>
+                    <button class="btn btn-danger mt-2">Download</button>
+                </div>
+                <div class="col-md-4 cols">
+                    <img class="movie-images" src="img/img3.png" alt="image"/>
+                    <h1 class="img-header">AVATAR</h1>
+                    <p class="img-text">
+                        Stephen Lang in Avatar (2009) Zoe Saldana at an event for Avatar
+                        (2009) Avatar prop in the Profiles in…
+                    </p>
+                    <div class="likes d-flex">
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <img class="mx-1" src="img/star.svg" alt="star"/>
+                        <h1 class="views fs-4 mx-4">12M Reviews</h1>
+                    </div>
+                    <button class="btn btn-danger mt-4">Download</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="banner mt-5 p-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="banner-header">
+                            Get a 40% OFF for first
+                        </h1>
+                        <h1 class="banner-second-header mx-2">
+                            PREMIUM MEMBERSHIP
+                        </h1>
+                    </div>
+
+                    <div class="col-md-3">
+                        <p class="second-cols-header fs-5 p-2">
+                            Sign Up to get more <br>
+                            EXITING OFFERS
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="banner-btn p-2">
+                            SIGN-UP
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-part" id="shows">
+        <div class="container">
+            <ul class="d-flex">
+                <li class=" second-part-list_items mt-5"><a class="second-part-links mx-3" href="#">BOLLYWOOD</a></li>
+                <li class=" second-part-list_items mt-5"><a class="second-part-links mx-3" href="#">HOLLYWOOD</a></li>
+                <li class=" second-part-list_items mt-5"><a class="second-part-links mx-3" href="#">TOLLYWOOD</a></li>
+            </ul>
+            <div class="second-part-btns">
+                <button class="second-part_btn prev"> <</button>
+                <button class="second-part_btn next"> ></button>
+            </div>
+
+            <div class="second-part-images">
+                <img class="second-part-image mt-5" src="img/img%202%201.jpg" alt="movie images">
+                <img class="second-part-image mt-5" src="img/img%202%202.jpg" alt="movie images">
+                <img class="second-part-image mt-5" src="img/img%202%203.jpg" alt="movie images">
+                <img class="second-part-image mt-5" src="img/img%202%204.jpg" alt="movie images">
+                <img class="second-part-image mt-5" src="img/img%202%205.jpg" alt="movie images">
+            </div>
+
+        </div>
+
+        <div class="bottom-section second-part" id="actors">
+            <div class="container">
+                <h1 class="bottom-header fs-3 pt-5">Top Actors</h1>
+                <h1 class="bottom-second-header fs-1"> Movies By Actors</h1>
+
+                <div class="right-side-items">
+                    <label for=""></label><input class="bg-dark search-form" type="search" name="search" id="" placeholder="Search By Actors">
+                </div>
+
+                <div class="container">
+                    <img height="232" class=" bottom-image mt-5" src="img/b1.png" alt="">
+                    <img height="232" class=" bottom-image mt-5" src="img/b2.png" alt="">
+                    <img height="232" class=" bottom-image mt-5" src="img/b3.png" alt="">
+                    <img height="232" class=" bottom-image mt-5" src="img/b4.png" alt="">
+                    <img height="232" class=" bottom-image mt-5" src="img/b5.png" alt="">
+                    <img height="232" class=" bottom-image mt-5" src="img/b6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="third-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/brat.jpg" alt="img" class="third-part_main-img mt-5">
+                    <div class="main-img-texts">
+                        <h1 class="main-header">Robert <br> Downey Jr.</h1>
+                        <p class="main-text">The past for me was 30 years of dependency, depravity, and despair ….
+                            otherwise known as ‘An Actor Prepares!</p>
+                        <div class="main-footer">
+                            <p class="main-biography">View Robert Biography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col2">
+                    <div class="movie-names mt-5">
+                        <h1 class="movie-header fs-4">Best Films / Popular / Latest</h1>
+                    </div>
+                    <div class="third-part-images">
+                        <img class="third-part-img" src="img/brat%202.jpg" alt="movie img">
+                        <img class="third-part-img" src="img/bratla%203.jpg" alt="movie img">
+                        <img class="third-part-img" src="img/bratla%204.jpg" alt="movie img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="img/UMovies%20(1).png" alt="">
+                    </div>
+                    <div class="card-body">
+
+                        <p class="card-body-text1 text-white ">Designed and Copyrights By</p>
+                        <p class="card-body-text2">Jayprakash Kachare</p>
+                        <div class="footer-icons">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="card-header-text text-white">Quick Links</h1>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Actors</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="card-header-text text-white mb-5">Newsletter</h1>
+                    </div>
+                    <div class="card-body news d-flex">
+                        <input class="footer-input" type="submit" value="Newsletter Sign Up">
+                        <button class="footer-btn btn-danger">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>
